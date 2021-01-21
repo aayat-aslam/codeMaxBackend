@@ -15,3 +15,5 @@ Run `php artisan migrate` command.
 Run `php artisan key:generate` command.
 
 Run `php artisan passport:keys` command.
+
+Run `php artisan serve` command
