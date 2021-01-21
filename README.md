@@ -8,6 +8,8 @@ Switch to `backend` which is inside main directory i.e `codeMaxBackend` director
 
 Run `composer update` command.
 
+Run `php artisan migrate` command.
+
 Run `php artisan key:generate` command.
 
 Run `php artisan passport:keys` command.
