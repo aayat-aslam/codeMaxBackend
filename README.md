@@ -4,12 +4,18 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 ## Development server
 
-Switch to `backend` directory
+Switch to `backend` which is inside main directory i.e `codeMaxBackend` directory
 
 Run `composer update` command.
+
+With the help of `.env.Example` file create `.env` file and change your settings.
+
+Run `php artisan migrate` command.
 
 Run `php artisan key:generate` command.
 
 Run `php artisan passport:keys` command.
 
-Rename .env.Example file to .env and change your settings.
+Run `php artisan passport:install` command
+
+Run `php artisan serve` command
