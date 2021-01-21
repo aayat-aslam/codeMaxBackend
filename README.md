@@ -16,4 +16,6 @@ Run `php artisan key:generate` command.
 
 Run `php artisan passport:keys` command.
 
+Run `php artisan passport:install` command
+
 Run `php artisan serve` command
