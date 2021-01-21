@@ -14,4 +14,4 @@ Run `php artisan key:generate` command.
 
 Run `php artisan passport:keys` command.
 
-Rename .env.Example file to .env and change your settings.
+With the help of .env.Example file create .env and change your settings.
