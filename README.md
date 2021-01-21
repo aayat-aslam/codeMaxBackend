@@ -4,7 +4,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 ## Development server
 
-Switch to `backend` directory
+Switch to `backend` which is inside main directory i.e `codeMaxBackend` directory
 
 Run `composer update` command.
 
