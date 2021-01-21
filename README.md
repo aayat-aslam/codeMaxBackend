@@ -8,10 +8,10 @@ Switch to `backend` which is inside main directory i.e `codeMaxBackend` director
 
 Run `composer update` command.
 
+With the help of `.env.Example` file create `.env` file and change your settings.
+
 Run `php artisan migrate` command.
 
 Run `php artisan key:generate` command.
 
 Run `php artisan passport:keys` command.
-
-With the help of `.env.Example` file create `.env` file and change your settings.
