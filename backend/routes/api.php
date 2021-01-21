@@ -20,13 +20,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::post('login', 'Auth\PassportController@login');
 Route::post('register', 'Auth\PassportController@register');
-// Route::get('get-product', 'ProductController@getProduct');
+ Route::get('get-product', 'ProductController@getProduct');
 Route::post('contact-us', 'ContactUsController@contactUs');
- 
+
 Route::middleware('auth:api')->group(function () {
     Route::get('user', 'Auth\PassportController@details');
     Route::get('product-count', 'ProductController@productCount');
-    Route::get('get-product', 'ProductController@getProduct');
+//    Route::get('get-product', 'ProductController@getProduct');
     Route::post('add-product', 'ProductController@addProduct');
     Route::resource('products', 'ProductController');
 });
